@@ -12,14 +12,12 @@ public:
         // handle the exception by throwing string "This is not a rectangle!"
         if(_length<=0 || _width<=0)
           throw std::string("This is not a rectangle!");
-
     }
 
     double area() const {
         // return the area of the Rectangle.
         double val = _width * _length;
         double _area = (int)(val * 1000) / 1000.0;
-
         return _area;
     }
 
@@ -36,7 +34,6 @@ public:
         std::string s1 = "Rectangle ";
         char s2[50];
         sprintf(s2, "(%.3f, %.3f)", floor(_length*1000)/1000, floor(_width*1000)/1000);
-
         return s1 + s2;
     }
 };

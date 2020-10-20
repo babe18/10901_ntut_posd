@@ -37,7 +37,7 @@ public:
 
     double area() const {
         // return the area of the Triangle.
-        double val = abs((_x1*(_y2-_y3) + _x2*(_y3-_y1) + _x3*(_y1-_y2))/2);
+        double val = fabs((_x1*(_y2-_y3) + _x2*(_y3-_y1) + _x3*(_y1-_y2))/2);
         double _area = (int)(val * 1000) / 1000.0;
         return _area;
     }

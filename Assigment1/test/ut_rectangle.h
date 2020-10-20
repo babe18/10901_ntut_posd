@@ -16,3 +16,13 @@ TEST(RECT, CreateRectFail){
     ASSERT_EQ("This is not a rectangle!", msg);
   }
 }
+
+TEST(RECT, CreateRectFail1){
+  try{
+    Rectangle rect(0,3);
+    FAIL();
+  }
+  catch(std::string msg){
+    ASSERT_EQ("This is not a rectangle!", msg);
+  }
+}

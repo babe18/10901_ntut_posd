@@ -12,7 +12,6 @@ public:
         // handle the exception by throwing string "This is not a ellipse!"
         if(semiMajorAxes <= 0 || semiMinorAxes <=0 || semiMajorAxes < semiMinorAxes)
           throw std::string("This is not a ellipse!");
-
     }
 
     double area() const {
