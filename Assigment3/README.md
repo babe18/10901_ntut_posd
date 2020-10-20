@@ -159,5 +159,3 @@ This time your directory structure should be like:
     ├── input.txt
     │
     └── output.txt
-
-```
