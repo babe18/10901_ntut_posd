@@ -1,3 +1,0 @@
-Ellipse (4, 3)
-Rectangle (1, 1)
-Triangle ([0,0], [3,0], [0,4])
